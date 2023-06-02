@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./AccoCss.css";
 
 function Accordion({ title, contents }) {
+  const [PPL, PPA] = useState([]);
   const [items, setItems] = useState([]);
 
   useEffect(() => {
